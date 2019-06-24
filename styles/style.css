@@ -1,0 +1,523 @@
+@font-face {
+	font-family: 'Dancing Script';
+	font-style: normal;
+	font-weight: 400;
+	src:url('https://fonts.googleapis.com/css?family=Francois+One'), url('https://fonts.googleapis.com/css?family=Source+Sans+Pro'), url('https://fonts.googleapis.com/css?family=Raleway'), url('https://fonts.googleapis.com/css?family=Montserrat');
+}
+
+
+      /* BASE */
+
+body {
+	margin: 0 0;
+	background: url(../img/body.jpg) repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 100%;
+}
+
+#container {
+	min-height: 60em;
+    width: 60%;
+    margin-left: auto;
+	margin-right: auto;
+	background: #ebebe0; 
+	position: relative;
+}
+
+	/* Fin de la base */
+	/* Partie Entête */
+
+header {
+	margin-right: auto;
+	margin-left: auto;
+	width:100%;
+	min-height: 12em;
+	background-color: #ebebe0;
+	position: relative;
+}
+
+header h1 {
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 260%;
+}
+
+header a {
+	color: black;
+	text-decoration: none;
+}
+
+	/* Fin partie entête */
+   	   /* Partie menu */
+
+nav {
+	position: relative;
+	min-height: 6em;
+	width: 100%;
+	text-align: center;
+}
+
+
+#menu {
+	width: 100%;
+	position: relative;
+	min-height: 6em;
+}
+
+#menu ul { 
+	margin-right: 30px;
+	padding:0;
+	list-style-type:none;
+	display: inline-block;
+}
+
+#menu li a {
+	color: #404040;
+	text-decoration:none;
+	display: block;
+	font-size: 90%;
+	border-top: solid 1px gray;
+	border-bottom: solid 1px gray;
+	padding: 15%;
+}
+
+#menu li a:hover {
+	color: black;
+}
+
+
+
+#menu ul ul {
+	display: none;
+}
+
+.border {
+	border-top: solid 1px gray;
+	border-bottom: solid 1px gray;
+	padding: 15%;
+}
+
+
+  	/* Fin du menu */
+  /* Partie galerie */
+
+
+#galerie {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+#galerie img {
+	margin-left: 6%;
+	max-width: 88%;
+	padding-top: 4%;
+}
+
+#presentation {
+	width: 100%;
+	position: relative;
+}
+
+#presentation img {
+	width: 60%;
+	margin-left: 20%;
+	position: relative;
+}
+
+#presentation h2 {
+	text-align: center;
+	margin-bottom: 2%;
+	margin-top: 4%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 180%;
+}
+
+	/* Fin de la partie galerie */
+   	    /* Partie principale */
+
+#principale {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	position: relative;
+	min-height: 50em;
+	background: #ebebe0;
+}
+
+#searchbar {
+    position:relative; 
+    width:100%; 
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+
+.searchbar {
+    position:relative; 
+    width:100%; 
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+
+.formulaire {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+    display:inline-block;
+}
+
+.formulaire .champ {
+    width: 600px; 
+    height: 30px;
+}
+
+.formulaire .bouton { 
+    width: 35px;
+    height: 35px;
+    padding: 0; 
+}
+
+#affiche {
+	position: relative;
+	margin-top: 6%;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 7%;
+	min-height: 20em;
+}
+
+#affiche h2 {
+	font-size: 150%;
+	margin-left: 4%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#affiche img {
+	position: relative;
+	margin-left: 4%;
+	width: 20%;
+	height: 320px;
+	float: left;
+	margin-bottom: 10%;
+}
+
+#prochainement {
+	min-height: 3em;
+	position: relative;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#prochainement h2 {
+	font-size: 150%;
+	margin-left: 4%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#prochainement img {
+	position: relative;
+	width: 20%;
+	height: 320px;
+	float: left;
+	margin-left: 4%;
+	margin-bottom: 10%;
+}
+
+
+#film {
+	width: 100%;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#film a {
+	text-decoration: none;
+	font-size: 90%;
+	color: black;
+}
+
+table td, th {
+	border: solid 1px black;
+	background-color: #e0e0d1;
+}
+
+table {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.premier {
+	position: relative;
+	width: 25%;
+	text-align: center;
+}
+
+#resum {
+	padding-top: 7%;
+	padding-bottom: 7%;
+	padding-left: 7%;
+	width: 92%;
+	float: left;
+	position: relative;
+}
+
+#chance {
+	min-height: 3em;
+	position: relative;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#chance img {
+	position: relative;
+	width: 20%;
+	height: 320px;
+	float: left;
+	margin-left: 4%;
+	margin-bottom: 10%;
+}
+
+#chance h2 {
+	font-size: 150%;
+	margin-left: 4%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#photoabo {
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#photoabo img {
+	margin-left: 7%;
+	width: 15%;
+	padding-top: 5%;
+}
+
+	/* Fin partie principale */
+    	/* Partie footer */
+
+footer {
+	min-height: 1em;
+	position: relative;
+	clear: left;
+}
+
+footer h3 {
+	padding-top: 10%;
+	text-align: center;
+}
+
+#suivez {
+	width: 100%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#suivez img {
+	width: 6%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer a {
+	text-decoration: none;
+	color: black;
+}
+
+footer p {
+	font-size: 100%;
+	text-align: center;
+}
+
+	  /* Fin du footer */
+	/* Partie RESPONSIVE */
+
+@media screen and (min-width: 830px) and (max-width: 1097px ) {
+
+#menu ul {
+	margin: 0 0;
+}
+
+#menu li a {
+	border: none;
+}
+
+.formulaire .champ {
+	width: 360px;
+	position: relative;
+
+}
+
+#affiche img {
+	width: 20%;
+	height: 220px;
+}
+
+#affiche h2 {
+	font-size: 130%;
+}
+
+#prochainement img {
+	width: 20%;
+	height: 220px;
+}
+
+#prochainement h2 {
+	font-size: 130%;
+}
+
+#chance img {
+	width: 20%;
+	height: 220px;
+}
+
+#chance h2 {
+	font-size: 130%;
+}
+
+footer h3 {
+	font-size: 110%;
+}
+
+#contact p a {
+	font-size: 80%;
+}
+}
+
+
+@media screen and (min-width: 620px) and (max-width: 830px) {
+
+#menu ul {
+	margin: 0 0;
+}
+
+#menu li a {
+	border: none;
+	font-size: 120%;
+}
+
+.formulaire .champ {
+	width: 360px;
+	position: relative;
+
+}
+
+#affiche img {
+	width: 40%;
+	height: 180px;
+}
+
+#affiche h2 {
+	font-size: 120%;
+}
+
+#prochainement img {
+	width: 40%;
+	height: 180px;
+}
+
+#prochainement h2 {
+	font-size: 120%;
+}
+
+#chance img {
+	width: 40%;
+	height: 180px;
+}
+
+#chance h2 {
+	font-size: 120%;
+}
+
+footer h3 {
+	font-size: 90%;
+}
+
+#contact p a {
+	font-size: 80%;
+}
+}
+
+@media screen and (min-width: 300px) and (max-width: 620px) {
+
+#container {
+	width: 80%;
+}
+
+header {
+	display: block;
+}
+
+
+#menu ul {
+	margin: 0 0;
+}
+
+#menu li a {
+	border: none;
+	font-size: 120%;
+}
+
+.formulaire .champ {
+	width: 210px;
+	position: relative;
+
+}
+
+
+#affiche img {
+	width: 40%;
+	height: 180px;
+}
+
+#affiche h2 {
+	font-size: 120%;
+}
+
+#prochainement img {
+	width: 40%;
+	height: 180px;
+}
+
+#prochainement h2 {
+	font-size: 120%;
+}
+
+#chance img {
+	width: 40%;
+	height: 180px;
+}
+
+#chance h2 {
+	font-size: 120%;
+}
+
+footer h3 {
+	font-size: 90%;
+}
+
+#contact p a {
+	font-size: 80%;
+}
+
+#suivez img {
+	width: 16%;
+
+}
+}
